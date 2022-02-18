@@ -3,6 +3,18 @@ $(function() {
 	init();
 	console.log("Main Init Called");
 
+
+	/*
+		what is unique pos ?
+		Piece on Square
+		Side
+		Castle
+		EnPas
+
+		posKey ^= RandNum for all pces on sq
+		posKey ^= RandNum side.. and so on
+	*/
+
 });
 
 
@@ -31,7 +43,6 @@ function InitFilesRanksBrd() {
 	console.log("FilesBrd[0]:" + FilesBrd[0] + " RanksBrd[0]:" + RanksBrd[0]);
 	console.log("FilesBrd[SQUARES.A1]:" + FilesBrd[SQUARES.A1] + " RanksBrd[SQUARES.A1]:" + RanksBrd[SQUARES.A1]);
 	console.log("FilesBrd[SQUARES.E8]:" + FilesBrd[SQUARES.E8] + " RanksBrd[SQUARES.E8]:" + RanksBrd[SQUARES.E8]);
-
 
 }
 

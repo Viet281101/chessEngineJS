@@ -75,12 +75,14 @@ var CastleKeys = new Array(16);
 var Sq120ToSq64 = new Array(BRD_SQ_NUM);
 var Sq64ToSq120 = new Array(64);
 
+
 function RAND_32() {
 
 	return (Math.floor((Math.random()*255)+1) << 23) | (Math.floor((Math.random()*255)+1) << 16)
 		 | (Math.floor((Math.random()*255)+1) << 8) | Math.floor((Math.random()*255)+1);
 
 }
+
 
 var Mirror64 = [
 56	,	57	,	58	,	59	,	60	,	61	,	62	,	63	,
