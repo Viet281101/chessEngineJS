@@ -17,6 +17,8 @@
 	font-family: Pixel;
 }
 
+
+
 button {
 	font-family: Pixel;
 	margin: 6px;
@@ -26,6 +28,7 @@ button {
 
 button:hover {
 	color: red;
+	cursor: url("images/mouse_cursor3.png"), default;
 }
 
 
@@ -47,6 +50,7 @@ button:hover {
 	border-radius: 15px;
 	padding: 9px;
 	background-color: #000;
+	cursor: url("images/mouse_cursor.png"), default;
 }
 
 
@@ -60,6 +64,7 @@ button:hover {
 
 #FenInDiv a:hover {
 	color: green;
+	cursor: url("images/mouse_cursor.png"), default;
 }
 
 
@@ -108,6 +113,7 @@ input[type="text"] {
 
 #ThinkTimeChoice:hover {
 	color: purple;
+	cursor: url("images/mouse_cursor3.png"), default;
 }
 
 
@@ -121,8 +127,18 @@ input[type="text"] {
 
 
 .SqSelected {
-	background-color:#216778;
+	background-color: #038198;
 }
+
+
+.Square {
+	cursor: url("images/mouse_cursor.png"), default;
+}
+
+.Piece {
+	cursor: url("images/mouse_cursor2.png"), default;	
+}
+
 
 .rank1 { top: 420px; }
 .rank2 { top: 360px; }

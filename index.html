@@ -26,7 +26,7 @@
 
 		<!-- fen position string input -->
 		<div id="FenInDiv">
-			<a href="https://en.wikipedia.org/wiki/Forsyth%E2%80%93Edwards_Notation" target="_blank">
+			<a href="https://en.wikipedia.org/wiki/Forsyth%E2%80%93Edwards_Notation" target="_blank" title="FEN(Forsyth–Edwards Notation) position string in chess">
 				FEN position string:
 			</a><br/>
 			<input type="text" id="fenIn"/>
@@ -54,10 +54,18 @@
 			<span id="OrderingOut">Ordering:</span><br/>
 			<span id="TimeOut">Time:</span><br/><br/>
 
-			<button type="button" id="SearchButton">Move Now</button><br/>
-			<button type="button" id="NewGameButton">New Game</button><br/>
-			<button type="button" id="FlipButton">Flip Board</button><br/>
-			<button type="button" id="TakeButton">Take Back</button><br/><br/><br/>
+			<button type="button" id="SearchButton" title="Auto move one step">
+				Move Now
+			</button><br/>
+			<button type="button" id="NewGameButton">
+				New Game
+			</button><br/>
+			<button type="button" id="FlipButton">
+				Flip Board
+			</button><br/>
+			<button type="button" id="TakeButton">
+				Take Back
+			</button><br/><br/><br/>
 
 			<span id="GameStatus"></span>
 		</div>
