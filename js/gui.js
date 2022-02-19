@@ -273,10 +273,10 @@ function CheckResult() {
 	
 	if(InCheck == BOOL.TRUE) {
 		if(GameBoard.side == COLOURS.WHITE) {
-	      $("#GameStatus").text("GAME OVER {black mates}");
+	      $("#GameStatus").text("CHECK-MATE ! GAME OVER {black mates}");
 	      return BOOL.TRUE;
         } else {
-	      $("#GameStatus").text("GAME OVER {white mates}");
+	      $("#GameStatus").text("CHECK-MATE ! GAME OVER {white mates}");
 	      return BOOL.TRUE;
         }
 	} else {

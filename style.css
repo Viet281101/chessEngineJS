@@ -19,7 +19,15 @@
 
 button {
 	font-family: Pixel;
+	margin: 6px;
+	color: black;
 }
+
+
+button:hover {
+	color: red;
+}
+
 
 .big_title {
 	font-family: Pixel;
@@ -46,6 +54,12 @@ button {
 	position: relative;
 	left: 60px;
 	font-family: Pixel;
+	color: black;
+}
+
+
+#FenInDiv a:hover {
+	color: green;
 }
 
 
@@ -70,12 +84,12 @@ input[type="text"] {
 	width: 480px;
 	height: 480px;
 	border-style: double;
-	border-width: 10px;
+	border-width: 24px;
 }
 
 #EngineOutput {
 	position: absolute;
-	left: 600px;
+	left: 640px;
 	top: 250px;	
 	font-family: Pixel;
 }
@@ -89,6 +103,11 @@ input[type="text"] {
 
 #ThinkTimeChoice {
 	font-family: Pixel;
+	color: black;
+}
+
+#ThinkTimeChoice:hover {
+	color: purple;
 }
 
 
