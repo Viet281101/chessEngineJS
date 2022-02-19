@@ -21,12 +21,13 @@
 
 button {
 	font-family: Pixel;
-	margin: 6px;
+	margin: 8px;
 	color: black;
 }
 
 
 button:hover {
+	transition: all ease 0.2s;
 	color: red;
 	cursor: url("images/mouse_cursor3.png"), default;
 }
@@ -95,7 +96,7 @@ input[type="text"] {
 #EngineOutput {
 	position: absolute;
 	left: 640px;
-	top: 250px;	
+	top: 205px;	
 	font-family: Pixel;
 }
 
