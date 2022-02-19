@@ -273,14 +273,18 @@ function CheckResult() {
 	
 	if(InCheck == BOOL.TRUE) {
 		if(GameBoard.side == COLOURS.WHITE) {
-	      $("#GameStatus").text("CHECK-MATE ! GAME OVER {black mates}");
+	      $("#GameStatus").text("CHECKMATE ! GAME OVER {black mates}");
+	      confirm("CHECKMATE !! GAME OVER {black mates} !");
 	      return BOOL.TRUE;
         } else {
-	      $("#GameStatus").text("CHECK-MATE ! GAME OVER {white mates}");
+	      $("#GameStatus").text("CHECKMATE ! GAME OVER {white mates}");
+	      confirm("CHECKMATE !! GAME OVER {white mates} !");
 	      return BOOL.TRUE;
         }
 	} else {
-		$("#GameStatus").text("GAME DRAWN {stalemate}");return BOOL.TRUE;
+		$("#GameStatus").text("GAME DRAWN {stalemate}");
+		confirm("GAME DRAWN {stalemate} !");
+		return BOOL.TRUE;
 	}
 	
 	return BOOL.FALSE;	

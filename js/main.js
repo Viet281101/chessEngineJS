@@ -139,6 +139,8 @@ function InitBoardSquares() {
 	
 }
 
+// confirm("Hello Player ! \n\nWelcome ! Very nice to meet you !\n\nDon't worry, this site has no cookies")
+
 function init() {
 	console.log("init() called");
 	InitFilesRanksBrd();
