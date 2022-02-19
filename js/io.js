@@ -1,8 +1,8 @@
 
+
 function PrSq(sq) {
 	return (FileChar[FilesBrd[sq]] + RankChar[RanksBrd[sq]]);
 }
-
 
 function PrMove(move) {	
 	var MvStr;
@@ -30,7 +30,6 @@ function PrMove(move) {
 	return MvStr;
 }
 
-
 function PrintMoveList() {
 
 	var index;
@@ -45,7 +44,6 @@ function PrintMoveList() {
 	}
 	console.log('End MoveList');
 }
-
 
 function ParseMove(from, to) {
 
@@ -83,4 +81,7 @@ function ParseMove(from, to) {
 	
 	return NOMOVE;
 }
+
+
+
 

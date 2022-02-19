@@ -1,3 +1,5 @@
+
+
 var perft_leafNodes;
 
 function Perft(depth) { 	
@@ -53,53 +55,6 @@ function PerftTest(depth) {
     return;
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

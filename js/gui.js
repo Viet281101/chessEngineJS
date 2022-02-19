@@ -1,8 +1,8 @@
 
+
 $("#SetFen").click(function () {
-	var fenStr = $("#fenIn").val();
-	ParseFen(fenStr);
-	PrintBoard();
+	var fenStr = $("#fenIn").val();	
+	NewGame(fenStr);
 });
 
 
@@ -320,4 +320,8 @@ function StartSearch() {
 	MoveGUIPiece(SearchController.best);
 	CheckAndSet();
 }
+
+
+
+
 

@@ -23,6 +23,22 @@ button {
 
 .big_title {
 	font-family: Pixel;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #fff;
+	border-radius: 15px;
+	padding: 9px;
+}
+
+
+.big_title:hover {
+	transition: all ease 1.4s;
+	color: #fff;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 15px;
+	padding: 9px;
+	background-color: #000;
 }
 
 
@@ -53,8 +69,8 @@ input[type="text"] {
 	left: 60px;
 	width: 480px;
 	height: 480px;
-	border-style: solid;
-	border-width: 2px;
+	border-style: double;
+	border-width: 10px;
 }
 
 #EngineOutput {

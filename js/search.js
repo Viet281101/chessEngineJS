@@ -1,3 +1,5 @@
+
+
 var SearchController = {};
 
 SearchController.nodes;
@@ -313,45 +315,6 @@ function UpdateDOMStats(dom_score, dom_depth) {
 	$("#TimeOut").text("Time: " + (($.now()-SearchController.start)/1000).toFixed(1) + "s");
 	$("#BestOut").text("BestMove: " + PrMove(SearchController.best));
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
