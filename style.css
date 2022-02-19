@@ -1,9 +1,45 @@
-#FenInDiv {
-	position: relative;
-	left: 60px;
+
+@charset "utf-8";
+
+
+@font-face {
+	font-family: Joystix;
+	src: url("Fonts/Arcadepix_Plus.ttf") format("truetype");
 }
 
 
+@font-face {
+	font-family: Pixel;
+	src: url("Fonts/Pixel_Font_free.ttf") format("truetype");
+}
+
+.pixel-font {
+	font-family: Pixel;
+}
+
+.big_title {
+	font-family: Pixel;
+}
+
+
+#FenInDiv {
+	position: relative;
+	left: 60px;
+	font-family: Pixel;
+}
+
+
+input[type="text"] {
+	font-family: Joystix;
+	font-size: 20px;
+	color: green;
+}
+
+
+#fenIn {
+	width: 560px;
+	left: 60px;
+}
 
 
 
