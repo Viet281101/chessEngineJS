@@ -30,7 +30,7 @@
 				FEN position string:
 			</a><br/>
 			<input type="text" id="fenIn"/>
-			<button type="button" id="SetFen" style="font-size: 16px;">
+			<button type="button" id="SetFen" style="font-size: 16px;" title="please make sure you have filled in FEN before pressing this button">
 				Set Position
 			</button>
 		</div>
@@ -38,7 +38,7 @@
 		<div id="Board"></div>
 		<div id="EngineOutput">Thinking Time: <br/>
 
-			<select id="ThinkTimeChoice">
+			<select id="ThinkTimeChoice" title="Choose load time to think">
 				<option value="1">1s</option>
 				<option value="2">2s</option>
 				<option value="4">4s</option>
@@ -57,13 +57,13 @@
 			<button type="button" id="SearchButton" title="Auto move one step">
 				Move Now
 			</button><br/>
-			<button type="button" id="NewGameButton">
+			<button type="button" id="NewGameButton" title="Start a new game">
 				New Game
 			</button><br/>
-			<button type="button" id="FlipButton">
+			<button type="button" id="FlipButton" title="reverse control">
 				Flip Board
 			</button><br/>
-			<button type="button" id="TakeButton">
+			<button type="button" id="TakeButton" title="go back one step before">
 				Take Back
 			</button><br/><br/><br/>
 
