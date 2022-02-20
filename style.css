@@ -40,6 +40,10 @@ button:hover {
 	border-color: #fff;
 	border-radius: 15px;
 	padding: 9px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 40px;
 }
 
 
@@ -91,7 +95,12 @@ input[type="text"] {
 	height: 480px;
 	border-style: double;
 	border-width: 24px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
+
+
 
 #EngineOutput {
 	position: absolute;
@@ -104,6 +113,13 @@ input[type="text"] {
 	position: absolute;	
 	width: 60px;
 	height: 60px;
+	cursor: url("images/mouse_cursor.png"), default;
+}
+
+.Square:hover {
+	border: 3px solid #000;
+	opacity: 0.8;
+	transition: all ease 0.15s;
 }
 
 
@@ -132,12 +148,14 @@ input[type="text"] {
 }
 
 
-.Square {
-	cursor: url("images/mouse_cursor.png"), default;
-}
-
 .Piece {
 	cursor: url("images/mouse_cursor2.png"), default;	
+}
+
+
+.Piece:hover {
+	opacity: 0.6;
+	transition: all ease 0.15s;
 }
 
 
