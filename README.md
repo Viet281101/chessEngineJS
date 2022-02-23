@@ -1,11 +1,14 @@
 Hello !
 Playing chess ?
 Click here: https://viet281101.github.io/chessEngineJS/
+
 ![alt text](./images/ChessEngineQR.png)
 
 
 Link of images:
 - Chess image: https://opengameart.org/content/pixel-chess-pieces
+- QR image: https://www.qrcode-tiger.com/data
+
 
 
 
@@ -14,7 +17,7 @@ https://jquery.com/download/
 
 
 
-Link to see what is the FEN(Forsyth–Edwards Notation) position string: 
+Link to see what is the **FEN(Forsyth–Edwards Notation)** position string: 
 https://en.wikipedia.org/wiki/Forsyth%E2%80%93Edwards_Notation
 
 https://chessboardjs.com/docs.html#fen_string
