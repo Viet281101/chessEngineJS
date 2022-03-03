@@ -2,7 +2,7 @@ Hello !
 Playing chess ?
 Click here: https://viet281101.github.io/chessEngineJS/
 
-![alt text](./images/ChessEngineQR.png)
+[![alt text](./images/ChessEngineQR.png)](https://viet281101.github.io/chessEngineJS/)
 
 
 Link of images:
