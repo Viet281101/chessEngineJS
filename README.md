@@ -2,14 +2,11 @@ Hello !
 Playing chess ?
 Click here: https://viet281101.github.io/chessEngineJS/
 
-[![alt text](./images/ChessEngineQR.png)](https://viet281101.github.io/chessEngineJS/)
+[![alt text](./images/preview_chess_image.png)](https://viet281101.github.io/chessEngineJS/)
 
 
 Link of images:
 - Chess image: https://opengameart.org/content/pixel-chess-pieces
-- QR image: https://www.qrcode-tiger.com/data
-
-
 
 
 Link to download JQuery:
